@@ -4,7 +4,7 @@ from joblib import load
 from sklearn.preprocessing import LabelEncoder
 
 # Load the trained Random Forest model
-model = load('random_forest_model.joblib')
+model = load('DS_Project-1/random_forest_model.joblib')
 
 # Create a Streamlit app
 st.title("Customer Churn Prediction App")
