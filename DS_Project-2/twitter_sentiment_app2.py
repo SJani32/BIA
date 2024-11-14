@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load the saved model
-model = tf.keras.models.load_model('sentiment_model2.h5')
+model = tf.keras.models.load_model('DS_Project-2/sentiment_model2.h5')
 
 # Load the tokenizer
 tokenizer = Tokenizer(num_words=5000)  # You need to set the same value as used during training
